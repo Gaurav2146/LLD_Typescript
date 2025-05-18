@@ -1,11 +1,10 @@
-abstract class Vehicle
-{
+import {PassengerVehicle,SportsVehicle,OffroadVehicle} from "./application";
 
-}
 
-class SportsVehicle extends Vehicle
-{
+let PassangerVehicle = new PassengerVehicle();
+let sportsVehicle = new SportsVehicle();
+let offroadVehicle = new OffroadVehicle();
 
-}
-
-console.log("Hello")
+PassangerVehicle.drive();
+sportsVehicle.drive();
+offroadVehicle.drive();

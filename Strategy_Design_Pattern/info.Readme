@@ -1,0 +1,7 @@
+1. In strtegy design pattern all the child class have different capabilities due to which we can
+   not implement the method in parent class.
+2. Multiple child class have features in common so, if we provide implementation directly in child
+   class then it will result in code duplicacy.
+3. So, we create a strategy interface which will have child classes implementing that strategy and 
+   the child class which needs the strategy can directly inject it through constructor injection in the 
+   parent calss.
